@@ -1,0 +1,87 @@
+header {
+    color: rgb(245, 246, 241);
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-betwee;
+  }
+  
+  h1 {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  h2 {
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(57, 6, 63);
+  }
+
+  
+
+  #nuevo-registro {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .search-container {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  #busqueda {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5em;
+  }
+  
+ 
+  .sort-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .sort-buttons button {
+    margin-left: 1em;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+  }
+  
+  table th,
+  table td {
+    width: calc(100% / 6);
+  }
+  
+  .paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  .paginacion button {
+    margin: 0 1em;
+  }
+  
+  .paginacion span {
+    margin: 0 0.5em;
+  }
+  
+  .highlight {
+    background-color: rgb(241, 241, 126);
+  }
+  
